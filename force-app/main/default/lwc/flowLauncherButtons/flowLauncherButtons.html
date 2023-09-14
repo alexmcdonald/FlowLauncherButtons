@@ -1,0 +1,41 @@
+<template>
+
+	<article class="slds-card">
+		<div class="slds-card__body">
+			<div class="slds-size_12-of-12 slds-form-element">
+				<div class="container">
+					<div class="slds-grid slds-wrap">
+						<template if:true={button1Label}>
+							<div class="slds-p-around_small slds-size_12-of-12">
+								<button type="button" class="slds-button slds-button_brand slds-size_full" data-button="1" data-action={button1Label} data-flow={button1Flow} data-size={button1Size} onclick={clickButton}>{button1Label}</button>
+							</div>
+						</template>
+						<template if:true={button2Label}>
+							<div class="slds-p-around_small slds-size_12-of-12">
+								<button type="button" class="slds-button slds-button_brand slds-size_full" data-button="2" data-action={button2Label} data-flow={button2Flow} data-size={button2Size} onclick={clickButton}>{button2Label}</button>
+							</div>
+						</template>
+						<template if:true={button3Label}>
+							<div class="slds-p-around_small slds-size_12-of-12">
+								<button type="button" class="slds-button slds-button_brand slds-size_full" data-button="3" data-action={button3Label} data-flow={button3Flow} data-size={button3Size} onclick={clickButton}>{button3Label}</button>
+							</div>
+						</template>
+						<template if:true={button4Label}>
+							<div class="slds-p-around_small slds-size_12-of-12">
+								<button type="button" class="slds-button slds-button_brand slds-size_full" data-button="4" data-action={button4Label} data-flow={button4Flow} data-size={button4Size} onclick={clickButton}>{button4Label}</button>
+							</div>
+						</template>
+						<template if:true={button5Label}>
+							<div class="slds-p-around_small slds-size_12-of-12">
+								<button type="button" class="slds-button slds-button_brand slds-size_full" data-button="5" data-action={button5Label} data-flow={button5Flow} data-size={button5Size} onclick={clickButton}>{button5Label}</button>
+							</div>
+						</template>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</article>
+
+
+</template>
